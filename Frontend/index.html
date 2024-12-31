@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Tareas</title>
+    <link rel="stylesheet" href="./style.css">
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="principal">
+        <h1 id="titulo">Administrador de Tareas</h1>
+        <p>Debajo tienes disponible un menú con el que podrás administrar y gestionar tus tareas de manera sencilla y plausible</p>
+        <div id="enviarDatos">
+            <h3>Gestionar Tareas</h3>
+            <div class="inputs">
+                <input id="nombre" type="text" placeholder="Nombre" name="title">
+                <input id="descripcion" type="text" placeholder="Descripción" name="description">
+                <button id="enviar">Enviar</button>
+            </div>
+            
+        </div>
+        
+        <div id="gestionarUno">
+            <h3>Gestionar una tarea</h3>
+            <div class="inputs">
+                <input id="id" type="number" placeholder="Id de la tarea">
+                <input id="nombre_nuevo" type="text" placeholder="Nuevo nombre" name="title">
+                <input id="descripcion_nueva" type="text" placeholder="Nueva descripción" name="description">
+            </div>
+            <div class="botones">
+                <button id="get_uno">Obtener</button>
+                <button id="put_uno">Actualizar</button>
+                <button id="borrar_uno">Borrar</button>
+            </div>
+            
+        </div>
+        
+
+
+        <div id="tareas">
+            
+        </div>
+
+        <div class="botones">
+            <button id="mostrar">Mostrar Todos</button>
+            <button id="borrar_todos">Borrar Todos</button>
+        </div>
+        
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

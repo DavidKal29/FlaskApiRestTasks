@@ -45,9 +45,6 @@ task_schemas=TaskSchema(many=True)#obtener multiples tareas
 #RUDA INSERT task -post
 @app.route('/tasks', methods=['POST'])
 def create_task():
-    
-   
-    
     title=request.json["title"]
     description=request.json["description"]
 
