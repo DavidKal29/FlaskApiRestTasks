@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#principal {
+  background-color: #183454;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  gap: 30px;
+}
+#principal #titulo {
+  color: #ff840c;
+  font-weight: bold;
+  font-size: 40px;
+}
+#principal #enviarDatos, #principal #gestionarUno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#principal #enviarDatos h3, #principal #gestionarUno h3 {
+  color: #ff840c;
+  font-weight: bold;
+}
+#principal #enviarDatos .inputs, #principal #gestionarUno .inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#principal #enviarDatos input, #principal #gestionarUno input {
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+  padding: 8px 25px;
+  font-weight: bold;
+}
+#principal .botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#principal button {
+  background-color: #ff840c;
+  color: white;
+  padding: 8px 35px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#principal #tareas {
+  border: 1px solid rgb(55, 55, 249);
+  background-color: #103c64;
+  width: 133vh;
+  height: 35vh;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px 40px;
+  overflow-y: scroll;
+}
+#principal #tareas .tareas_heads {
+  color: #ff840c;
+  font-weight: bold;
+}
+#principal #tareas div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
