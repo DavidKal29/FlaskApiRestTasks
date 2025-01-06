@@ -36,7 +36,7 @@ SweetAlert2: Librería para mostrar alertas interactivas de manera sencilla.
 
 Para ejecutar este proyecto, necesitas:
 - **Python 3.x**
-- **MongoDB** (puede ser local o en la nube)
+- **MySQL** 
 - Librerías de Python:
   - `flask`
   - `python-dotenv`
