@@ -31,3 +31,52 @@ SweetAlert2: Librería para mostrar alertas interactivas de manera sencilla.
  Eliminar tarea: Elimina una tarea específica por su ID.
  
  Eliminar todas las tareas: Elimina todas las tareas de la base de datos.
+
+
+
+Para ejecutar este proyecto, necesitas:
+- **Python 3.x**
+- **MongoDB** (puede ser local o en la nube)
+- Librerías de Python:
+  - `flask`
+  - `python-dotenv`
+  - `flask-sqlalchemy`
+  - `flask-marshmallow`
+  - `flask-cors`
+  - `python-mysql-connector`
+
+---
+
+## Instalación
+
+1. **Clona el repositorio**  
+   Ejecuta el siguiente comando en tu terminal:
+   ```bash
+   git clone git@github.com:DavidKal29/FlaskApiRestTasks.git
+   cd FlaskApiRestTask
+
+2. **Crea un entorno virtual** (opcional pero recomendado):
+   ```bash
+   python -m venv env
+   source env/bin/activate    # Linux/Mac
+   env\Scripts\activate       # Windows
+
+3. **Instala las dependencias** 
+   ```bash
+   pip install -r requeriments.txt
+
+4. **MYSQL** 
+    crea una base de datos con el nombre flaskmysql
+
+
+5. **Configura las variables de entorno** 
+   Crea un archivo .env y pon en él lo siguiente:
+   ```env
+   DB_URI=mysql+mysqlconnector://user:password@localhost/flaskmysql
+
+6. **Ejectua la aplicacion** 
+   ```bash
+    python app.py
+
+7. **Abre el navegador** 
+   Ve a http://127.0.0.1:5000 para acceder a la aplicación.
